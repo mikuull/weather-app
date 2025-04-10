@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Weather App
 
-## Getting Started
+A simple and modern weather application built with **Next.js 15**, **Tailwind CSS**, and the **OpenWeatherMap API**.  
+This project was created as part of my portfolio to demonstrate frontend and API integration skills.
 
-First, run the development server:
+🌐 **Live Demo**: [Click here](https://weather-app-nu-lac-14.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js 15**
+- **Tailwind CSS**
+- **OpenWeatherMap API**
+- **TypeScript**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🌤 Features
 
-To learn more about Next.js, take a look at the following resources:
+- Search weather by city
+- Displays current weather conditions (temperature, humidity, etc.)
+- Responsive and clean UI with Tailwind CSS
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ <center>Installation & Setup</center>
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Clone the repository**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+   git clone https://github.com/mikuull/weather-app.git
+   cd weather-app
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   pnpm install
+   ```
+
+3. **Create `.env.local` file in the root directory**
+
+   Add the following:
+
+   ```
+   NEXT_PUBLIC_OPENWEATHER_API_KEY=your_openweathermap_api_key
+   ```
+
+   You can generate your API key by signing up at  
+   [https://openweathermap.org/api](https://openweathermap.org/api)
+
+4. **Run the development server**
+
+   ```bash
+   pnpm dev
+   ```
+
+   Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
+
+</div>
+
+---
+
+## 🔧 TODO
+
+- [ ] Add geolocation support to fetch weather for the user's current location
+
+---
+
+## 📄 License
+
+This project is open-source and free to use.
+
+---
